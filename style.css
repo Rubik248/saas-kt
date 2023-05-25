@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wrapper1 {
+  width: 100%;
+  height: 700px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.wrapper1 .wrapper1__block1 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 50px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.wrapper1 .wrapper1__block1 .wrapper1__block1-elem {
+  width: 200px;
+  height: 20px;
+  background-color: white;
+}
+.wrapper1 .wrapper1__block1 .wrapper1__block1-head {
+  font-size: 64px;
+  text-transform: uppercase;
+}
+.wrapper1 .wrapper1__block1 .wrapper1__block1-btn {
+  width: 200px;
+  height: 60px;
+  border: 0;
+  background-color: rgb(255, 111, 0);
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.wrapper1 .wrapper1__block1 .wrapper1__block1-btn:hover {
+  color: beige;
+  background-color: rgb(173, 77, 4);
+}
+
+.wrapper1_block2-img {
+  width: 900px;
+  height: 600px;
+}
+
+.wrapper2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 50px;
+  background-color: rgb(255, 111, 0);
+}
+.wrapper2 .wrapper2__block1 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.wrapper2 .wrapper2__block1 .wrapper2__block1-head {
+  text-transform: uppercase;
+  color: white;
+  font-size: 42px;
+}
+.wrapper2 .wrapper2__block1 .wrapper2__block1-txt {
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+}
+.wrapper2 .wrapper2__block1 .wrapper2__block1-elem {
+  width: 200px;
+  height: 20px;
+  background-color: white;
+}
+
+.wrapper2__block2-img {
+  width: 900px;
+}
+
+.wrapper3 {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 40px;
+}
+.wrapper3 .wrapper3__block {
+  width: 100%;
+  gap: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.wrapper3 .wrapper3__block .wrapper3__block-head {
+  color: white;
+}
+.wrapper3 .wrapper3__block .wrapper3__block-txt {
+  color: white;
+}
+.wrapper3 .wrapper3__block .wrapper3__block-elem {
+  width: 100px;
+  height: 20px;
+  background-color: rgb(255, 111, 0);
+}/*# sourceMappingURL=style.css.map */
